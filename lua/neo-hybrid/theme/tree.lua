@@ -6,16 +6,16 @@ M.highlights = {
   NvimTreeSpecialFile = { gui = "bold,underline", guifg = color.white.dimmed },
   NvimTreeExecFile = { gui = "bold", guifg = color.green.bright },
   NvimTreeImageFile = { gui = "bold", guifg = color.magenta.normal },
-  NvimTreeIndentMarker = { guifg = color.blue.bright },
-  NvimTreeFolderIcon = { guifg = color.blue.bright },
+  NvimTreeIndentMarker = { guifg = color.black.bright },
+  NvimTreeFolderIcon = { guifg = color.blue.normal },
   NvimTreeGitDeleted = { guifg = color.red.dimmed },
   NvimTreeGitNew = { guifg = color.white.dimmed },
   NvimTreeGitMerge = { guifg = color.yellow.normal },
   NvimTreeGitRenamed = { guifg = color.magenta.dimmed },
   NvimTreeSymlink = { gui = "bold", guifg = color.cyan.bright },
-  NvimTreeRootFolder = { guifg = color.cyan.normal },
+  NvimTreeRootFolder = { guifg = color.blue.dimmed },
   NvimTreeOpenedFile = { gui = "bold", guifg = color.green.bright },
-  NvimTreeGitDirty = { guifg = color.red.dimmed },
+  NvimTreeGitDirty = { guifg = color.red.bright },
   NvimTreeGitStaged = { guifg = color.green.bright },
   NvimTreeWindowPicker = { gui = "bold", guibg = color.blue.bright, guifg = color.white.bright },
   NvimTreeSignColumn = { guibg = color.black.dimmed },
@@ -46,4 +46,5 @@ M.links = {
   NvimTreeLspDiagnosticsInformation = "DiagnosticInfo",
   NvimTreeLspDiagnosticsHint = "DiagnosticHint",
 }
+
 return M

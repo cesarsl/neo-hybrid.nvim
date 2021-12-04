@@ -6,7 +6,7 @@ M.highlights = {
   SpecialKey = { guifg = color.cyan.normal },
   TermCursor = { gui = "reverse" },
   NonText = { gui = "bold", guifg = color.blue.dimmed },
-  Directory = { guifg = color.fg.dimmed },
+  Directory = { guifg = color.blue.normal },
   ErrorMsg = { guibg = color.red.normal, guifg = color.white.bright },
   IncSearch = { gui = "reverse" },
   Search = { guibg = color.yellow.bright, guifg = color.black.normal },
