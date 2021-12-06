@@ -1,8 +1,16 @@
--- vim.cmd([[highlight clear]])
--- vim.cmd([[syntax reset]])
+local M = {}
 
-vim.o.termguicolors = true
-vim.o.background = "dark"
-vim.g.colors_name = "neo-hybrid"
+function M.setup(option)
+  vim.cmd([[highlight clear]])
+  vim.cmd([[syntax reset]])
 
-require("neo-hybrid.theme")
+  vim.o.termguicolors = true
+  vim.o.background = "dark"
+  vim.g.colors_name = "neo-hybrid"
+
+  local theme = require("neo-hybrid.theme")
+
+  theme.apply()
+end
+
+return M
