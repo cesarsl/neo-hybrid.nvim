@@ -10,3 +10,5 @@ function M.apply()
   util.colorize(neovim.highlights)
   util.colorize(nvim_tree.highlights)
 end
+
+return M
