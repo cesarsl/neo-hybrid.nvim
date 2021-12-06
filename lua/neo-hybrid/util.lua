@@ -2,7 +2,7 @@ local M = {}
 
 function M.colorize(highlights)
   for key, value in pairs(highlights) do
-    vim.highlight.create(key, value, true)
+    vim.highlight.create(key, value, false)
   end
 end
 

@@ -1,11 +1,11 @@
 local M = {}
 
 function M.setup(option)
-  vim.cmd([[highlight clear]])
-  vim.cmd([[syntax reset]])
-
-  vim.o.termguicolors = true
-  vim.o.background = "dark"
+  if vim.g.colors_name then
+    vim.cmd("hi clear")
+  end
+  vim.cmd("set background=dark")
+  vim.cmd("set termguicolors")
   vim.g.colors_name = "neo-hybrid"
 
   local theme = require("neo-hybrid.theme")
