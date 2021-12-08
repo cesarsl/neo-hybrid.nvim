@@ -8,4 +8,13 @@ M.highlights = {
   GitSignsDelete = { guibg = color.black.dimmed, guifg = color.red.normal },
 }
 
+M.links = {
+  GitSignsAddNr = "GitSignsAdd",
+  GitSignsAddLn = "GitSignsAdd",
+  GitSignsChangeNr = "GitSignsChange",
+  GitSignsChangeLn = "GitSignsChange",
+  GitSignsDeleteNr = "GitSignsDelete",
+  GitSignsDeleteLn = "GitSignsDelete",
+}
+
 return M
