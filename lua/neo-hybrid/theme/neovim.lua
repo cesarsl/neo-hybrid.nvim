@@ -17,7 +17,7 @@ M.highlights = {
   Question = { gui = "bold", guifg = color.green.bright },
   StatusLine = { gui = "bold", guibg = color.black.dimmed },
   StatusLineNC = { gui = "none", guibg = color.black.dimmed },
-  VertSplit = { gui = "none", guibg = color.bg.normal, guifg = color.bg.normal },
+  VertSplit = { gui = "none", guibg = color.black.dimmed, guifg = color.bg.normal },
   Title = { gui = "bold", guifg = color.magenta.bright },
   Visual = { guibg = color.black.normal },
   WarningMsg = { guifg = color.red.bright },
