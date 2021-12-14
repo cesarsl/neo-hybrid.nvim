@@ -59,7 +59,7 @@ M.highlights = {
   Constant = { guifg = color.green.bright },
   Number = { guifg = color.red.normal },
   Identifier = { guifg = color.blue.normal },
-  Statement = { gui = "none", guifg = color.yellow.bright },
+  Statement = { gui = "none", guifg = color.cyan.bright },
   PreProc = { guifg = color.magenta.normal },
   Type = { gui = "none", guifg = color.green.bright },
   Special = { guifg = color.yellow.dimmed },
