@@ -62,7 +62,7 @@ M.highlights = {
   Statement = { gui = "none", guifg = color.fg.normal },
   PreProc = { guifg = color.magenta.normal },
   Type = { gui = "none", guifg = color.green.bright },
-  Special = { guifg = color.green.normal },
+  Special = { guifg = color.white.normal },
   DiagnosticError = { guifg = color.red.normal },
   DiagnosticWarn = { guifg = color.yellow.normal },
   DiagnosticInfo = { guifg = color.blue.normal },
