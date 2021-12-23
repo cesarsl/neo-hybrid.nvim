@@ -22,9 +22,9 @@ M.highlights = {
     guibg = palette.bright.blue,
     guifg = palette.bright.white,
   },
-  NvimTreeSignColumn = { guibg = palette.normal.black },
-  NvimTreeNormal = { guibg = palette.normal.black },
-  NvimTreeEndOfBuffer = { guifg = palette.normal.black },
+  NvimTreeSignColumn = { guibg = palette.normal.bg },
+  NvimTreeNormal = { guibg = palette.normal.bg },
+  NvimTreeEndOfBuffer = { guifg = palette.normal.bg },
 }
 
 M.links = {
