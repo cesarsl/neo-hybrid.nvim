@@ -1,26 +1,30 @@
-local color = require("neo-hybrid.colors")
+local palette = require("neo-hybrid.palette")
 
 local M = {}
 
 M.highlights = {
-  NvimTreeSpecialFile = { gui = "bold,underline", guifg = color.white.dimmed },
-  NvimTreeExecFile = { gui = "bold", guifg = color.green.bright },
-  NvimTreeImageFile = { gui = "bold", guifg = color.magenta.normal },
-  NvimTreeIndentMarker = { guifg = color.black.bright },
-  NvimTreeFolderIcon = { guifg = color.blue.normal },
-  NvimTreeGitDeleted = { guifg = color.red.dimmed },
-  NvimTreeGitNew = { guifg = color.white.dimmed },
-  NvimTreeGitMerge = { guifg = color.yellow.normal },
-  NvimTreeGitRenamed = { guifg = color.magenta.dimmed },
-  NvimTreeSymlink = { gui = "bold", guifg = color.cyan.bright },
-  NvimTreeRootFolder = { guifg = color.blue.dimmed },
-  NvimTreeOpenedFile = { gui = "bold", guifg = color.green.bright },
-  NvimTreeGitDirty = { guifg = color.red.bright },
-  NvimTreeGitStaged = { guifg = color.green.bright },
-  NvimTreeWindowPicker = { gui = "bold", guibg = color.blue.bright, guifg = color.white.bright },
-  NvimTreeSignColumn = { guibg = color.black.dimmed },
-  NvimTreeNormal = { guibg = color.black.dimmed },
-  NvimTreeEndOfBuffer = { guifg = color.black.dimmed },
+  NvimTreeSpecialFile = { gui = "bold,underline", guifg = palette.normal.white },
+  NvimTreeExecFile = { gui = "bold", guifg = palette.bright.green },
+  NvimTreeImageFile = { gui = "bold", guifg = palette.normal.magenta },
+  NvimTreeIndentMarker = { guifg = palette.bright.black },
+  NvimTreeFolderIcon = { guifg = palette.normal.blue },
+  NvimTreeGitDeleted = { guifg = palette.normal.red },
+  NvimTreeGitNew = { guifg = palette.normal.white },
+  NvimTreeGitMerge = { guifg = palette.normal.yellow },
+  NvimTreeGitRenamed = { guifg = palette.normal.magenta },
+  NvimTreeSymlink = { gui = "bold", guifg = palette.bright.cyan },
+  NvimTreeRootFolder = { guifg = palette.normal.blue },
+  NvimTreeOpenedFile = { gui = "bold", guifg = palette.bright.green },
+  NvimTreeGitDirty = { guifg = palette.bright.red },
+  NvimTreeGitStaged = { guifg = palette.bright.green },
+  NvimTreeWindowPicker = {
+    gui = "bold",
+    guibg = palette.bright.blue,
+    guifg = palette.bright.white,
+  },
+  NvimTreeSignColumn = { guibg = palette.normal.black },
+  NvimTreeNormal = { guibg = palette.normal.black },
+  NvimTreeEndOfBuffer = { guifg = palette.normal.black },
 }
 
 M.links = {

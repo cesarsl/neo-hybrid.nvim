@@ -1,34 +1,34 @@
-local color = require("neo-hybrid.colors")
+local palette = require("neo-hybrid.palette")
 
 return {
   normal = {
-    a = { bg = color.bg.bright, fg = color.fg.dimmed, gui = "bold" },
-    b = { bg = color.bg.normal, fg = color.white.dimmed },
-    c = { bg = color.black.dimmed, fg = color.fg.normal },
+    a = { bg = palette.bright.bg, fg = palette.normal.fg, gui = "bold" },
+    b = { bg = palette.normal.bg, fg = palette.normal.white },
+    c = { bg = palette.normal.black, fg = palette.normal.fg },
   },
   insert = {
-    a = { bg = color.green.bright, fg = color.bg.normal, gui = "bold" },
-    b = { bg = color.bg.normal, fg = color.green.bright },
-    c = { bg = color.black.dimmed, fg = color.fg.normal },
+    a = { bg = palette.bright.green, fg = palette.normal.bg, gui = "bold" },
+    b = { bg = palette.normal.bg, fg = palette.bright.green },
+    c = { bg = palette.normal.black, fg = palette.normal.fg },
   },
   visual = {
-    a = { bg = color.yellow.normal, fg = color.bg.normal, gui = "bold" },
-    b = { bg = color.bg.normal, fg = color.yellow.normal },
-    c = { bg = color.black.dimmed, fg = color.fg.normal },
+    a = { bg = palette.normal.yellow, fg = palette.normal.bg, gui = "bold" },
+    b = { bg = palette.normal.bg, fg = palette.normal.yellow },
+    c = { bg = palette.normal.black, fg = palette.normal.fg },
   },
   replace = {
-    a = { bg = color.red.normal, fg = color.bg.normal, gui = "bold" },
-    b = { bg = color.bg.normal, fg = color.red.normal },
-    c = { bg = color.black.dimmed, fg = color.fg.normal },
+    a = { bg = palette.normal.red, fg = palette.normal.bg, gui = "bold" },
+    b = { bg = palette.normal.bg, fg = palette.normal.red },
+    c = { bg = palette.normal.black, fg = palette.normal.fg },
   },
   command = {
-    a = { bg = color.blue.normal, fg = color.bg.normal, gui = "bold" },
-    b = { bg = color.bg.normal, fg = color.blue.normal },
-    c = { bg = color.black.dimmed, fg = color.fg.normal },
+    a = { bg = palette.normal.blue, fg = palette.normal.bg, gui = "bold" },
+    b = { bg = palette.normal.bg, fg = palette.normal.blue },
+    c = { bg = palette.normal.black, fg = palette.normal.fg },
   },
   inactive = {
-    a = { bg = color.black.normal, fg = color.white.dimmed, gui = "bold" },
-    b = { bg = color.bg.normal, fg = color.white.dimmed },
-    c = { bg = color.black.dimmed, fg = color.fg.normal },
+    a = { bg = palette.normal.black, fg = palette.normal.white, gui = "bold" },
+    b = { bg = palette.normal.bg, fg = palette.normal.white },
+    c = { bg = palette.normal.black, fg = palette.normal.fg },
   },
 }
