@@ -3,7 +3,7 @@ local palette = require("neo-hybrid.palette")
 local M = {}
 
 M.highlights = {
-  GitSignsAdd = { guibg = palette.normal.black, guifg = palette.bright.green },
+  GitSignsAdd = { guibg = palette.normal.black, guifg = palette.normal.green },
   GitSignsChange = { guibg = palette.normal.black, guifg = palette.normal.magenta },
   GitSignsDelete = { guibg = palette.normal.black, guifg = palette.normal.red },
 }
