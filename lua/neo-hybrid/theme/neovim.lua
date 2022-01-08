@@ -36,8 +36,7 @@ M.highlights = {
   DiffChange = { guibg = palette.normal.magenta },
   DiffDelete = {
     gui = "bold",
-    guibg = palette.normal.cyan,
-    guifg = palette.bright.blue,
+    guibg = palette.normal.red,
   },
   DiffText = { gui = "bold", guibg = palette.normal.red },
   SignColumn = { guibg = palette.normal.bg, guifg = palette.normal.fg },
