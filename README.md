@@ -38,7 +38,7 @@ end)
 
 ### Lua
 
-Only tested with lua:
+Only tested with Lua:
 
 ```Lua
 require("neo-hybrid")
@@ -48,4 +48,5 @@ require("neo-hybrid")
 
 - [w0ng/vim-hybrid](https://github.com/w0ng/vim-hybrid)
 - [Gogh](https://mayccoll.github.io/Gogh/)
+
 - [Kitty terminal](https://github.com/kovidgoyal/kitty)
